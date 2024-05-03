@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-full{
+     background-image:url("/bg-01.jpg") ;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        z-index:-1;
+        font-size: 12px;
+        line-height: 1.42857143;
+
+        font-family: SourceSansPro-Regular, sans-serif;
+        overflow: hidden;
+        
+
+}
+
+
+.container{
+
+    text-align: center;
+    justify-content: center;
+    width: 416px;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+    padding-right:55px;
+    padding-left:55px;
+    padding-bottom:30px;
+    padding-top:50px;
+   
+
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.logo-title{
+
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-family: SourceSansPro-Bold; */
+    font-weight: 700;
+    font-size: 30px;
+    color: #77120c;
+    line-height: 1.2;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 30px;
+
+    }
+
+
+.input100{
+        font-family: SourceSansPro-Bold;
+        font-size: 16px;
+        color: #750e04;
+        line-height: 1.2;
+        display: block;
+        width: 100%;
+        height: 62px;
+        padding: 0 20px 0 23px;
+        border: 1px solid #d3d3d3;
+}
+
+.focus-input100 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.container-login100-form-btn{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.login100-form-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #77120c;
+    font-family: SourceSansPro-SemiBold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    border: none;
+}

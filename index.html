@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AKTU One view</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+<link rel="manifest" href="./site.webmanifest">
+
+
+</head>
+<!-- key= 2001320100084 
+value = page-->
+<body>
+<div class="container-full">
+    <div class="container">
+
+        <div class="logo_img">
+            <img src="/logo.png" alt="">
+            <span class="logo-title">AKTU ONEVIEW</span>
+        </div>
+
+        <div class="login_form">
+         <form method="POST" action="" onsubmit="return(checkform())">
+           <div class="wrap-input100 validate-input m-b-30">
+                            <input name="txtRollNo" type="text" maxlength="13" id="txtRollNo" title="जारी रखने के लिए अपना विश्वविद्यालय रोल नंबर दर्ज करें।" class="input100" PlaceHolder="अनुक्रमांक " ondrop="return false;" />
+                            <span class="focus-input100"></span>
+                            <span id="rfv_txtRollNo" class="btn-hide-validate" style="color:Red;font-size:Large;display:none;">*</span>
+                            
+                        </div>
+                        <div class="wrap-input100 validate-input m-b-30">
+                            <div id="pnlCaptcha" cCssClass="input100" style="text-align:center;">
+
+	                    </div>
+                        </div>
+
+                     <div class="container-login100-form-btn">
+                            
+                            <!-- <input type="submit" name="btnSearch" value="खोजें" onclick="Nikhilform" id="btnSearch" title="खोजने के लिए यहां क्लिक करें।" class="login100-form-btn" /> -->
+                            <button class="login100-form-btn"><a class="login100-form-btn" style="color: aliceblue;text-decoration: none;" href="/tenor.gif">खोजें</a></button>
+                        </div>
+                        </form>
+                    
+</div>
+
+                    <div style="padding: 20px 0px 20px 0px; text-align: center; margin-top: 1%;">
+                        <p>
+                            यह डॉ ए पी जे अब्दुल कलाम तकनीकी विश्वविद्यालय लखनऊ की आधिकारिक ईo आरo पीo है।<br />
+                            (एoकेoटीoयूo-एसडीसी द्वारा संचालित)
+                        </p>
+                    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <script>
+        function checkform(){
+            if(document.getElementById("txtRollNo").value=="2001320148024"){
+
+                   setTimeout(function() {window.location = "result.html" });
+
+            }
+            else if(document.getElementById("txtRollNo").value=="1901320400169"){
+
+                   setTimeout(function() {window.location = "result2.html" });
+
+            }
+            
+            else{
+                     setTimeout(function() {window.location = "index.htm" });
+            }
+        }
+        
+
+    </script>
+</body>
+
+</html>
